@@ -58,7 +58,9 @@ q.pop();
 cout<< q.peek()<<endl;
 q.pop();
 q.pop();
+q.pop();
 cout<< q.peek()<<endl;
 cout<<q.empty()<<endl;
+
  return 0;
 }
