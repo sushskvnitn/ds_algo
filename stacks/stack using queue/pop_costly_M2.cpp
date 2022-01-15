@@ -41,7 +41,7 @@ class stack1
             return -1;
 
         }
-        while(q1.size() !=1)
+        while(q1.size()!=1)
         {
             q2.push(q1.front());
             q1.pop();            
