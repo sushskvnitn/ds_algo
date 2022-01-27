@@ -24,7 +24,7 @@
   //maximum  path sum 
 /* here we use one function maxpathsum util which is 
 going to calculate max at node considering all 4 cases above */
-int maxpathsumutil(Node * root,int  ans ){
+int maxpathsumutil(Node * root,int  &ans ){
     if(root == NULL){
         return 0;
     }
@@ -38,8 +38,8 @@ int maxpathsumutil(Node * root,int  ans ){
 
 int maxsumpath(Node * root){
     int ans = -1000;
-   int result= maxpathsumutil(root,ans);
-    return result;
+   maxpathsumutil(root,ans);
+    return ans;
 }
 
   //print inorder 
