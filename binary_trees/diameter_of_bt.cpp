@@ -40,9 +40,7 @@ struct Node{
      int rdiameter = calcdiameter(root->right);
      return max(currdiameter,max(ldiameter,rdiameter));
  }
-
 this has o( N * N ) complexity we can calculate height inside calc height and redule tc 
-
  */
 int calcdiameter(Node* root,int *height){
      if(root==NULL){
