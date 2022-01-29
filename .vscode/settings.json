@@ -4,7 +4,9 @@
         "string": "cpp",
         "iostream": "cpp",
         "stack": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
