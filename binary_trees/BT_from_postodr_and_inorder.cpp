@@ -35,7 +35,6 @@ Node *buildtree(int postorder[],int inorder[],int start,int end){
     if(start > end){
         return NULL;
     }
-
     int curr  = postorder[idx];
     idx--;
     Node* node = new Node(curr);
@@ -50,9 +49,6 @@ Node *buildtree(int postorder[],int inorder[],int start,int end){
     node->left= buildtree(postorder,inorder,start,pos-1);
     return node;
 }
-
-
-
 //print inorder 
 void prinorder(Node * root){
     if(root==NULL){
