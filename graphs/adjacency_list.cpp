@@ -15,12 +15,12 @@ int main()
             adj[y].push_back(x);//comment this for directed graph
       }
       cout<<"----------------adjacency list----------------"<<endl;
-      for (int i=0;i<n;i++){
-            cout<<i<<"->";
-            for (int j=0;j<adj[i].size();j++){
-                  cout<<adj[i][j]<<" ";
-            }
-            cout<<endl;
+      vector<int>:: iterator it;
+      for(int i=1;i<n+1;i++){
+          cout<<i<<" ->";
+          for(it=adj[i].begin();it!=adj[i].end();it++){
+              cout<<*it <<"  ";
+          }cout<<endl;
       }
       return 0;
 }
