@@ -25,14 +25,14 @@
 </h4> 
 
 <hr>
-
-<pre align="center">
-  ** sliding window **
+ <h1>sliding window </h1>
+<p align="center">
+  
    sliding window is a technique to slide a window over a sequence of items.
-   The window is moved one item at a time.
-      The window is a subset of the sequence.
+   The window is moved one item at a time. <br>
+      The window is a subset of the sequence. <br>
 
-      # how to identify a sliding window?
+      how to identify a sliding window? 
           In this type of question we are required to find anything related to subsequence or substrings or the any condition or the maximum or minimum values in the window. or find the window size
               # types of sliding window
                   1. fixed window size
@@ -42,7 +42,7 @@
                           # fixed window size is a window that is fixed in size
                   # variable window size 
                           # variable window size is a window that is variable in size       
-</pre>
+</p>
 
 <br>
 
