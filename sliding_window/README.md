@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Data Structures And Algo&#39;s" />
+  <img src="" alt="Data Structures And Algo&#39;s" />
 
   &#xa0;
 
