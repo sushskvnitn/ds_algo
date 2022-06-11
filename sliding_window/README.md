@@ -25,7 +25,7 @@
 </h4> 
 
 <hr>
- <h1>sliding window </h1>
+ <h3>sliding window </h3>
 <p align="center">
   
    sliding window is a technique to slide a window over a sequence of items.
@@ -50,7 +50,7 @@
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/sushskvnitn" target="_blank">sushant </a>
 
 &#xa0;
 
