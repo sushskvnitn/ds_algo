@@ -6,7 +6,8 @@
         "stack": "cpp",
         "xlocale": "cpp",
         "vector": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "xiosbase": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
